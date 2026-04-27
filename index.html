@@ -1,83 +1,260 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
-    <title>Curriculum vitae</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Instituto Tecnólogico De Las Americas</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css">
 </head>
-<body class="bg-info">
-    
- <div class="container-fluid">
-  <div class="row">
 
-    <div class="col-md-4 sidebar text-center">
+<body class="bg-primary bg-opacity-10">
+  <!--esto es el menu  de arriba-->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+    <div class="container">
 
-      <div class="profile-img mb-3">
+      <a class="navbar-brand text-white display-3" href="index.html">ITLA</a>
 
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu" aria-controls="menu"
+        aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="menu">
+        <ul class="navbar-nav ms-auto">
+
+          <li class="nav-item">
+            <a class="nav-link text-white" href="index.html">Inicio</a>
+          </li>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown" role="button"
+              data-bs-toggle="dropdown" aria-expanded="false">
+              Sobre Nosotros
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="quienessomos.html">Quiénes somos</a></li>
+              <li><a class="dropdown-item" href="historia.html">Historia</a></li>
+            </ul>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link text-white" href="oferta.html">Oferta Académica</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link text-white" href="cafe.html">Café Digital</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link text-white" href="contacto.html">Contacto</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link text-white" href="transparencia.html">Transparencia</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link text-white" href="gestion.html">Gestión Docente</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link text-white" href="rectoria.html">Rectoría</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link text-white" href="calidad.html">Calidad de Gestión</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!--esto es el carrusel-->
+  <main>
+  <div id="carouselITLA" class="carousel slide" data-bs-ride="carousel" data-bs-interval="3000" data-bs-wrap="true"
+    data-bs-ride="carousel">
+    <div class="carousel-inner">
+
+      <!--slide1 -->
+      <div class="carousel-item active">
+        <img src="img/slide1.jpg" class="d-block w-100">
       </div>
 
-      <h5 class="display-6 bg-danger text-white">CONTACT</h5>
-      <p>Telefono +1 (809) 747-0392</p>
-      <p>Gmail LarielyMassiel@gmail.com</p>
-      <p>RNC 147565657544</p>
+      <!--slide2-->
+      <div class="carousel-item">
+        <img src="img/slide2.jpg" class="d-block w-100">
+      </div>
 
-      <h5 class="mt-4 display-6 bg-danger text-white">HABILIDADES</h5>
-      <ul class="list-unstyled">
-        <li>Bailar</li>
-        <li>Cantar</li>
-        <li>Correr</li>
-      </ul>
-
-      <h5 class="mt-4 display-6 bg-danger text-white">IDIOMAS</h5>
-      <p>Inglés</p>
-      <p>Español</p>
-      <p>Italiano</p>
-      <p>Frances</p>
-
-      <h5 class="mt-4 display-6 bg-danger text-white">HOBBIES</h5>
-      <ul class="list-unstyled">
-        <li>Bailar</li>
-        <li>Las Artes Marciales Mixtas</li>
-      </ul>
-
+      <!--slid3-->
+      <div class="carousel-item">
+        <img src="img/slide 3.jpg" class="d-block w-100">
+      </div>
     </div>
 
-    <!-- Esto e el MAIN -->
-    <div class="col-md-8 main-content">
+    <!--botones de abajo-->
+    <div class="container-fluid px-0">
+      <div class="row row-cols-1 row-cols-md-3 row-cols-lg-5 g-0">
 
-      <h2 class="display-1  text-danger">LARIELY MASSIEL MEJIA ROSARIO</h2>
-      <p class="display-6 text-white">Una mujer con una belleza descomunal contratame ;)</p>
+        <div class="col border border-light-subtle d-flex flex-column align-items-center justify-content-center p-4">
+          <i class="bi bi-globe fs-1 text-primary mb-2"></i>
+          <small class="fw-bold text-secondary text-uppercase">ITLA INTERNACIONAL</small>
+        </div>
 
-      <h2 class="display-4 bg-danger text-white">Experiencia Laboral</h2>
+        <div class="col border border-light-subtle d-flex flex-column align-items-center justify-content-center p-4">
+          <i class="bi bi-laptop fs-1 text-primary mb-2"></i>
+          <small class="fw-bold text-secondary text-uppercase">PLATAFORMA VIRTUAL</small>
+        </div>
 
-      <h5>Bailarina profesional</h5>
-      <p>Brodway Studios INC.</p>
-      <ul>
-        <li>Lorem ipsum dolor sit amet</li>
-        <li>Lorem ipsum dolor sit amet</li>
-      </ul>
+        <div class="col border border-light-subtle d-flex flex-column align-items-center justify-content-center p-4">
+          <i class="bi bi-translate fs-1 text-primary mb-2"></i>
+          <small class="fw-bold text-secondary text-uppercase">ESCUELA DE IDIOMAS</small>
+        </div>
 
-      <h5>Artes Marciales Mixtas</h5>
-      <p>New York MMC</p>
-      <ul>
-        <li>Lorem ipsum dolor sit amet</li>
-        <li>Lorem ipsum dolor sit amet</li>
-      </ul>
+        <div class="col border border-light-subtle d-flex flex-column align-items-center justify-content-center p-4">
+          <i class="bi bi-patch-check fs-1 text-primary mb-2"></i>
+          <small class="fw-bold text-secondary text-uppercase">ITLA TEST CENTER</small>
+        </div>
 
-      <h2 class="display-6 bg-danger text-white">EDUCACION</h2>
+        <div class="col border border-light-subtle d-flex flex-column align-items-center justify-content-center p-4">
+          <i class="bi bi-person-walking fs-1 text-primary mb-2"></i>
+          <small class="fw-bold text-secondary text-uppercase">DEPORTES Y CULTURA</small>
+        </div>
+      </div>
 
-      <h5>Escuela de Danza Maria de Fatima</h5>
-      <p>Ciudad de Mexico</p>
+      <div class="row row-cols-1 row-cols-md-3 row-cols-lg-5 g-0">
+        <div class="col border border-light-subtle d-flex flex-column align-items-center justify-content-center p-4">
+          <i class="bi bi-sign-merge-left fs-1 text-primary mb-2"></i>
+          <small class="fw-bold text-secondary text-uppercase">PROGRAMA DE EXTENSIÓN</small>
+        </div>
+        <div class="col border border-light-subtle d-flex flex-column align-items-center justify-content-center p-4">
+          <i class="bi bi-person-badge fs-1 text-primary mb-2"></i>
+          <small class="fw-bold text-secondary text-uppercase">EGRESADOS</small>
+        </div>
+        <div class="col border border-light-subtle d-flex flex-column align-items-center justify-content-center p-4">
+          <i class="bi bi-geo-alt fs-1 text-primary mb-2"></i>
+          <small class="fw-bold text-secondary text-uppercase">RECINTOS Y EXTENSIONES</small>
+        </div>
+        <div class="col border border-light-subtle d-flex flex-column align-items-center justify-content-center p-4">
+          <i class="bi bi-mortarboard fs-1 text-primary mb-2"></i>
+          <small class="fw-bold text-secondary text-uppercase">ITLACADEMY</small>
+        </div>
+        <div class="col border border-light-subtle d-flex flex-column align-items-center justify-content-center p-4">
+          <i class="bi bi-box-seam fs-1 text-primary mb-2"></i>
+          <small class="fw-bold text-secondary text-uppercase">PROTOSCANNER 3D</small>
+        </div>
+      </div>
 
-      <h5>Gymnacio Leureaux</h5>
-      <p>Paris, Francia</p>
-
+      <div class="row justify-content-center g-0">
+        <div
+          class="col-12 col-md-3 col-lg-2 border border-light-subtle d-flex flex-column align-items-center justify-content-center p-4">
+          <i class="bi bi-send fs-1 text-primary mb-2"></i>
+          <small class="fw-bold text-secondary text-uppercase text-center">EMPRENDIMIENTO E INNOVACIÓN</small>
+        </div>
+        <div
+          class="col-12 col-md-3 col-lg-2 border border-light-subtle d-flex flex-column align-items-center justify-content-center p-4">
+          <i class="bi bi-person-vcard fs-1 text-primary mb-2"></i>
+          <small class="fw-bold text-secondary text-uppercase">GRADUACIÓN</small>
+        </div>
+      </div>
     </div>
 
-<footer class="text-center text-danger display-6">Eso es todo gracias &hearts;</footer>
-  </div>
-</div>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+    <!--esto es botom de inscribete-->
+    <div class="text-center my-4">
+      <img src="img/itlasuscribete.jpg" class="img-fluid w-60">
+      <div class="mt-3">
+        <h1 class="text-primary">¡Tu futuro profesional empieza aquí!</h1>
+        <a class="btn btn-danger mt-2">INSCRÍBETE</a>
+      </div>
+    </div>
+
+    <!--nuevas carreras -->
+    <section class="container my-5">
+      <h2 class="text-center display-3 text-primary">Nuevas Carreras</h2>
+
+      <div class="row">
+        <div class="col-md-4">
+          <div class="card">
+            <img
+              src="https://www.obicex.es/sites/obicex/files/styles/blog_desktop/public/images/blog/shutterstock_2091198109.jpg?itok=qYcbJaTi"
+              class="card-img-top" />
+            <div class="card-body">
+              <h5 class="text-primary">Simulaciones y videojuegos</h5>
+              <a class="btn btn-outline-primary">Ver detalle</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="card">
+            <img src="https://www.nuevarevista.net/wp-content/uploads/2024/12/Daniel-Burgos-848x484.jpg"
+              class="card-img-top" />
+            <div class="card-body">
+              <h5 class="text-primary">Inteligencia Artificial</h5>
+              <a class="btn btn-outline-primary">Ver detalle</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="card">
+            <img src="https://cypes.grupoeurohispana.com/img/bgsubcat/312/subcat312-foto2-20250411125558.jpg"
+              class="card-img-top" />
+            <div class="card-body">
+              <h5 class="text-primary">Ciberseguridad</h5>
+              <a class="btn btn-outline-primary">Ver detalle</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--novedades-->
+    <section class="container my-5">
+      <h2 class="mb-4 text-primary">Últimas Novedades</h2>
+
+      <div class="row">
+        <div class="col-md-4">
+          <div class="card">
+            <img
+              src="https://scontent.fsdq4-1.fna.fbcdn.net/v/t51.82787-15/652763042_18579340183020180_3219264722770009995_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=13d280&_nc_ohc=cr2Eb9NEAvYQ7kNvwHYdu8c&_nc_oc=AdohLx6tdgxtZtiUEL_gmuBM9lu4Wl5fPKb3DPn4tP5nw02ir2mPCGkZUMmLmghXTDA&_nc_zt=23&_nc_ht=scontent.fsdq4-1.fna&_nc_gid=VwDeA6yAgIyxXrOvLKO0rQ&_nc_ss=7b289&oh=00_Af0EwrLrFaiOKv3JD_MXO4KTvdpcDo3wx78dI7NxfnqkIg&oe=69F49398"
+              class="card-img-top" />
+            <div class="card-body">
+              <small class="text-primary">abril 15, 2026</small>
+              <h5 class="text-primary">Estudiantes del ITLA destacan en tecnología</h5>
+              <a class="btn btn-primary">Leer más</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+    <!--conocenos-->
+    <section class="bg-light p-5">
+      <div class="container">
+        <h2 class="text-center text-danger">Conócenos</h2>
+        <p class="text-primary text-center">
+          El Instituto Tecnológico de las Américas (ITLA) es una institución educativa de la República Dominicana que
+          ofrece formación técnica y tecnológica en áreas como desarrollo de software, redes y mecatrónica, con un
+          enfoque práctico y actualizado.
+        </p>
+      </div>
+    </section>
+
+    <!--contacto-->
+    <section class="container my-5">
+      <h2 class="text-danger text-center">Contáctanos</h2>
+      <p class="text-center text-primary">Tel: 809-738-4852</p>
+      <p class="text-center text-primary">Email: info@itla.edu.do</p>
+      <p class="text-center text-primary">info@itla.edu.do</p>
+    </section>
+
+    <!--footer-->
+    <footer class="bg-dark text-white text-center p-3">
+      <p> &COPY; 2026 ITLA - Todos los derechos reservados &hearts;</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
 </body>
+
 </html>
